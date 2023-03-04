@@ -1,5 +1,5 @@
 # Programming Checkpoint 1: Room simulator
-[![Points badge](../../blob/badges/.github/badges/points.svg)](../../actions)
+
 
 ## Programming Checkpoint Outcomes:
 Develop C++ classes that uses:
@@ -10,14 +10,8 @@ Develop C++ classes that uses:
 - Memory management
 - UML class diagram
 
-## Preparatory Readings:
-- ZyBook primer chapters
 
-## This Programming Checkpoint project
 
-In this programming checkpoint, you will be required to create two classes to
-model a seat and a room respectively. These classes can be used to create a
-room simulator, which will not be part of this assignment.
 
 
 ### Programming Requirements:
@@ -126,22 +120,3 @@ Your application must function as described below:
     3. You should get an email regarding the status of your build, if it does
        not pass, keep trying.
 
-## Grading Information:
-- Breakdown
-  + 50 pts GitHub Auto-grading
-    * 10 pts test-seat
-    * 20 pts test-room1
-    * 10 pts test-room2
-    * 10 pts memory leak check
-- Auto-grading results can be checked at the top of this document like as a
-  badge ***40/50***.
-- View details:
-    1. On your GitHub repo page, Click the :arrow_forward: **Actions** tab to
-       see your graded results.
-    1. If it isn't a green check mark (:heavy_check_mark:) then at least part of
-       the testing failed.
-    1. Click the commit message for the failing version then click "Autograding"
-       on the left side of the page.
-    1. Follow the :x: path and expand things to see what errors exist.
-    1. It is usually **education/autograding@v1** and you can expend this path to
-       view the detail.
