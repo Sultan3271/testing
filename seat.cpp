@@ -12,8 +12,6 @@ bool Seat::book() {
   }
 }
 
-//- The `free` method should return false if fails. It should fail if the
-// seat is already empty.
 
 bool Seat::free() {
   if (this->status == true) {
