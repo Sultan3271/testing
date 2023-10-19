@@ -15,6 +15,7 @@ bool Seat::book() {
 
 bool Seat::free() {
   if (this->status == true) {
+    cout<<"Free"<<endl;
     this->status = false;
     return true;
   } else {

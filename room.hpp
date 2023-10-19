@@ -8,6 +8,8 @@ class Room{
 Room();
 	Room(int rows,int cols)
 ;
+
+  // this is destructor
 	~Room();
 	int getRows()const;
 	int getCols()const;
